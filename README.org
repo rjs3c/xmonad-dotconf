@@ -51,15 +51,3 @@
 | @@html:<kbd>@@Win@@html:</kbd>@@+@@html:<kbd>@@Left Mouse Drag@@html:</kbd>@@                                                        | Drag focused window out of tiling                                           |
 | @@html:<kbd>@@Win@@html:</kbd>@@+@@html:<kbd>@@Right Mouse Drag@@html:</kbd>@@                                                       | Resize focused window, bring out of tiling if needed                        |
 | @@html:<kbd>@@Win@@html:</kbd>@@+@@html:<kbd>@@Right Mouse Drag@@html:</kbd>@@                                                       | Resize focused window, bring out of tiling if needed                        |
-
-* Personalizing or modifying xmonad-config
-  
-Once cloned, xmonad-config is laid out as follows.
-
-All xmonad configuration is in ~/.xmonad/xmonad.hs.  This includes things like key bindings, colors, layouts, etc.  You may need to have some basic understanding of [[https://wiki.haskell.org/Haskell][Haskell]] in order to modify this file, but most people have no problems.
-
-Most of the xmobar configuration is in ~/.xmonad/xmobar.hs.
-
-All scripts are in ~/.xmonad/bin/.  Scripts are provided to do things like take screenshots, start the system tray, start dmenu, or fix your multi-head layout after a fullscreen application may have turned off one of the screens. 
-
-Colors set in the xmobar config and dmenu script are meant to coincide with the [[http://toddwerth.com/2008/04/30/the-last-vim-color-scheme-youll-ever-need/][IR_Black terminal and vim themes]].
