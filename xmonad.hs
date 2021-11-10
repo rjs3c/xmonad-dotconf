@@ -1,6 +1,3 @@
--- xmonad config used by Malcolm MD
--- https://github.com/randomthought/xmonad-config
-
 import System.IO
 import System.Exit
 -- import System.Taffybar.Hooks.PagerHints (pagerHints)
